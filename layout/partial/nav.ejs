@@ -1,0 +1,15 @@
+<nav>
+    <div class="nav-left">
+        <div class="nav-logo">VASE</div>
+        <div>
+            <% for(item in theme.nav){ %>
+                <a href="<%- url_for(theme.nav[item]) %>"><%- item %></a>
+            <% } %>
+        </div>
+    </div>
+    <div class="nav-right">
+        <form>
+            <%- search_form() %>
+        </form>
+    </div>
+</nav>

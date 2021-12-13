@@ -1,0 +1,5 @@
+nav:
+  home: ''
+  archive: '/archives'
+
+color: 'vue' # #3eaf7c
